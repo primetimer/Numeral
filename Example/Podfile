@@ -8,7 +8,6 @@ target 'Numeral_Example' do
 
   target 'Numeral_Tests' do
     inherit! :search_paths
-
     
   end
 end
