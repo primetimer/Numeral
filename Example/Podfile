@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Numeral_Example' do
+  pod 'Numeral', :path => '../'
+
+  target 'Numeral_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
