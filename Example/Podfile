@@ -2,6 +2,9 @@ use_frameworks!
 
 target 'Numeral_Example' do
   pod 'Numeral', :path => '../'
+  pod 'BigInt', '~> 3.0'
+  pod 'SipHash', '~>1.2'
+  
 
   target 'Numeral_Tests' do
     inherit! :search_paths

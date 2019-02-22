@@ -29,8 +29,15 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  s.dependency 'BigInt'
 
-  s.source_files = 'Numeral/Classes/**/*'
+  s.source_files = "Numeral/**/*.{swift}"
+  
+  # 9
+  s.resources = "Numeral/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+
+  #s.source_files = 'Numeral/Classes/**/*'
   
   # s.resource_bundles = {
   #   'Numeral' => ['Numeral/Assets/*.png']
