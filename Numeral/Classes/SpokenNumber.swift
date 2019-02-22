@@ -9,7 +9,7 @@
 import Foundation
 import BigInt
 
-extension String {
+public extension String {
     func capitalizingFirstLetter() -> String {
         return prefix(1).uppercased() + dropFirst()
     }
@@ -18,7 +18,7 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
 	func superscript() -> String {
 //		let s = "⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾"
 		var ans = ""
@@ -105,7 +105,7 @@ class SpokenNumber {
 	}
 }
 
-class SpokenNumberFrench {
+public class SpokenNumberFrench {
 	static let shared = SpokenNumberFrench()
 	private init() {
 		
@@ -201,7 +201,7 @@ class SpokenNumberFrench {
 	}
 }
 
-class SpokenNumberLargePrefixer {
+public class SpokenNumberLargePrefixer {
 	let bstr = ["","mi","bi","tri","quadri","quinti","sexti","septi","octi","noni","deci","undeci","Duodeci","Tredeci","Quattuordeci","Quinquadeci","Sedecillion","Septendeci","Octodeci","Novendeci","Viginti"]
 	let estr = ["","un","duo","tre","quattor","quin","se","septe","octo","nove"]
 	let dstr = ["","deci","viginti","triginta","quadriginta","quinquaginta","sexaginta","septuaginta","octoginta","nonaginta"]
@@ -302,7 +302,7 @@ class SpokenNumberLargePrefixer {
 	}
 }
 
-class SpokenNumberGerman {
+public class SpokenNumberGerman {
 	static let shared = SpokenNumberGerman()
 	private init() {}
 	
@@ -400,7 +400,7 @@ class SpokenNumberGerman {
 	}
 }
 
-class SpokenNumberLatin {
+public class SpokenNumberLatin {
     static let shared = SpokenNumberLatin()
     private init() { }
     
@@ -576,7 +576,7 @@ class SpokenNumberLatin {
 
 }
 
-class SpokenNumberDanish {
+public class SpokenNumberDanish {
 	static let shared = SpokenNumberDanish()
 	private init() { }
 	

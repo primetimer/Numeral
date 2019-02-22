@@ -10,3 +10,10 @@ target 'Numeral_Example' do
     
   end
 end
+
+target 'NumeralWatch Extension' do
+    pod 'Numeral', :path => '../'
+    pod 'BigInt', '~> 3.0'
+    pod 'SipHash', '~>1.2'
+end
+

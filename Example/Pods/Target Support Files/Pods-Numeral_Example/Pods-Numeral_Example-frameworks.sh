@@ -143,14 +143,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Numeral/Numeral.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BigInt-iOS/BigInt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Numeral-iOS/Numeral.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SipHash-iOS/SipHash.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Numeral/Numeral.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BigInt-iOS/BigInt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Numeral-iOS/Numeral.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SipHash-iOS/SipHash.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

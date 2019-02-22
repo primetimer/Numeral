@@ -9,7 +9,7 @@
 import Foundation
 import BigInt
 
-extension BigUInt {
+public extension BigUInt {
 	func Duodezimal() -> String {	
 		//let superscript = '⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ ᴬ ᴮ ᴰ ᴱ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴼ ᴾ ᴿ ᵀ ᵁ ⱽ ᵂ ₐ ₑ ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ ᵣ ₛ ₜ ᵤ ᵥ ₓ ᵅ ᵝ ᵞ ᵟ ᵋ ᶿ ᶥ ᶲ ᵠ ᵡ ᵦ ᵧ ᵨ ᵩ ᵪ'
 		
@@ -33,7 +33,7 @@ extension BigUInt {
 	}
 }
 
-extension BigUInt {
+public extension BigUInt {
 	
 	func IndianArabian() -> String {
 		let arabian = ["\u{0660}","\u{0661}","\u{0662}","\u{0663}","\u{0664}","\u{0665}","\u{0666}","\u{0667}","\u{0668}","\u{0669}"]
@@ -49,7 +49,7 @@ extension BigUInt {
 	}
 }
 
-extension BigUInt {
+public extension BigUInt {
 	
 	private func GreekUpto10000() ->String {
 		let greek = ["α","β","γ","δ","ε","ϛ","ζ","η","θ","ι","κ","λ","μ","ν","ξ","ο","π","ϟ","ρ","σ","τ","υ","φ","χ","ψ","ω","ϡ","͵α", "͵β","͵γ","͵δ","͵ε","͵ϛ","͵ζ","͵η","͵θ"]
@@ -427,7 +427,7 @@ extension BigUInt {
 	}
 }
 
-extension BigUInt {
+public extension BigUInt {
 	
 	func RomanArchaicUpto10000() -> String {
 		let ones = ["","Ⅰ","Ⅱ", "Ⅲ","Ⅳ","Ⅴ","Ⅵ","Ⅶ","Ⅷ","Ⅸ","Ⅹ","Ⅺ","Ⅻ"]
@@ -497,7 +497,7 @@ extension BigUInt {
 			for c in high { ans = ans + String(c) + "\u{033F}" }
 			return ans + low
 		}
-		if self <= 1000000*1000*10 {
+		if self <= BigUInt(1000000)*1000*10 {
 			let low = (self % 100000).RomanArchaicUpto10000()
 			let high = (self / 100000).RomanArchaicUpto10000()
 			var ans = ""
@@ -526,7 +526,7 @@ extension BigUInt {
 	}
 }
 
-extension BigUInt  {
+public extension BigUInt  {
 	
 	func GlagoliticUpto1000(small : Bool = false) -> String {
 		let k = ["","Ⰰ","Ⰱ","Ⰲ","Ⰳ","Ⰴ","Ⰵ","Ⰶ","Ⰷ","Ⰸ"]
@@ -666,7 +666,7 @@ extension BigUInt  {
 	}
 }
 
-extension BigUInt {
+public extension BigUInt {
 	func Khmer() -> String {
 		let d = ["០","១","២","៣","៤","៥","៦","៧","៨","៩"]
 		var (stellen,ans) = (self,"")
@@ -678,7 +678,7 @@ extension BigUInt {
 	}
 }
 
-extension BigUInt {
+public extension BigUInt {
     func Sanskrit() -> String {
         //Devanagari
         //https://en.wikipedia.org/wiki/Indian_numerals
@@ -693,7 +693,7 @@ extension BigUInt {
 }
 
 
-extension BigUInt {
+public extension BigUInt {
 	func Keilschrift() -> String {
 		var ans = ""
 		var stellen = self
@@ -760,7 +760,7 @@ extension BigUInt {
 	}
 }
 
-extension BigUInt {
+public extension BigUInt {
 	func Klingon() ->String {
 	//https://en.wikipedia.org/wiki/Abjad_numerals
 		
@@ -780,7 +780,7 @@ extension BigUInt {
 	}
 }
 
-extension BigUInt {
+public extension BigUInt {
 	func Kharoshthi() -> String {
 		let base = ["","\u{10a40}","\u{10a41}","\u{10a42}","\u{10a43}"]
 		let ten = "\u{10a44}"
@@ -866,7 +866,7 @@ extension BigUInt {
  	}
 }
 
-extension BigUInt {
+public extension BigUInt {
 	func DNA() -> String {
 		
 		let ACGT = ["A","C","G","T"]
