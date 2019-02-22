@@ -1,0 +1,6 @@
+framework module Numeral {
+  umbrella header "Numeral-umbrella.h"
+
+  export *
+  module * { export * }
+}
