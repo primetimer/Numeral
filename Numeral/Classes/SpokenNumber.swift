@@ -64,7 +64,7 @@ public extension String {
 }
 
 public class SpokenNumber {
-	static let shared = SpokenNumber()
+	public static let shared = SpokenNumber()
 	private init() {
 		
 	}
@@ -106,7 +106,7 @@ public class SpokenNumber {
 }
 
 public class SpokenNumberFrench {
-	static let shared = SpokenNumberFrench()
+	public static let shared = SpokenNumberFrench()
 	private init() {
 		
 	}
@@ -303,7 +303,7 @@ public class SpokenNumberLargePrefixer {
 }
 
 public class SpokenNumberGerman {
-	static let shared = SpokenNumberGerman()
+	public static let shared = SpokenNumberGerman()
 	private init() {}
 	
 	let small = ["null", "eins", "zwei", "drei", "vier", "fünf", "sechs", "sie\u{00AD}ben", "acht", "neun", "zehn", "elf", "zwölf", "drei\u{00AD}zehn", "vier\u{00AD}zehn", "fünf\u{00AD}zehn", "sech\u{00AD}zehn", "sieb\u{00AD}zehn","acht\u{00AD}zehn", "neun\u{00AD}zehn"]
@@ -401,7 +401,7 @@ public class SpokenNumberGerman {
 }
 
 public class SpokenNumberLatin {
-    static let shared = SpokenNumberLatin()
+    public static let shared = SpokenNumberLatin()
     private init() { }
     
     let small = ["nulla", "unum", "duo", "tribus", "quattuor", "quinque", "sex", "septem", "octo", "novem", "decem", "undecim", "duodecim", "tredecim", "quattordecim", "quindecim", "se\u{00AD}decim", "septemdecim","octōdecim", "novemdecim"]
@@ -577,7 +577,7 @@ public class SpokenNumberLatin {
 }
 
 public class SpokenNumberDanish {
-	static let shared = SpokenNumberDanish()
+	public static let shared = SpokenNumberDanish()
 	private init() { }
 	
 	let small = ["nul", "en", "to", "tre", "fire", "fem", "seks", "syv", "otte", "ni", "ti", "elleve", "tolv", "tretten", "fjor\u{00AD}ten", "fem\u{00AD}ten", "seks\u{00AD}ten", "syt\u{00AD}ten","at\u{00AD}ten", "nit\u{00AD}ten"]
