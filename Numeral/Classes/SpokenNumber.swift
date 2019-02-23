@@ -63,7 +63,7 @@ public extension String {
 	
 }
 
-class SpokenNumber {
+public class SpokenNumber {
 	static let shared = SpokenNumber()
 	private init() {
 		

@@ -60,6 +60,8 @@
 		7E85F1FCF8684C9624C7CB3F40CEC64B /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F928683E640F6B8A2545DF3BE9C235 /* Comparable.swift */; };
 		7F9CEEFEC90C77C4FD902D0BA959DB86 /* Numeral-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1AC6F70ABE2E3915F1E10D609F093 /* Numeral-iOS-dummy.m */; };
 		82993D25B92AAD2E774AAC3837C1DEE1 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F82E23FB418F60C06431AABDF16E2 /* Bitwise Ops.swift */; };
+		84928071222126F80082BBBE /* Numeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84928070222126F80082BBBE /* Numeral.swift */; };
+		84928072222126F80082BBBE /* Numeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84928070222126F80082BBBE /* Numeral.swift */; };
 		84DF1E824616A4F933231A16E459823F /* Primitive Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCCE207305C91E054F11A8BD3EA3DF /* Primitive Types.swift */; };
 		8AD29ADC24BCD457BB2FAEDF1FD9074F /* Pods-NumeralWatch Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A122C508871AD0249000057BAA5375 /* Pods-NumeralWatch Extension-dummy.m */; };
 		8C7DD233EEA1220644B85A126937ADE3 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400C00CC38E9B0D3A2E112CF9F67894 /* Multiplication.swift */; };
@@ -258,6 +260,7 @@
 		7D1F7453624F3E32BB4A56AA44EE4AB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C260E008127DC2F08AB55CACBDD567 /* SipHash-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHash-iOS-prefix.pch"; sourceTree = "<group>"; };
 		848493EAF59A08FE2BF896A9D0C293CF /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = sources/Exponentiation.swift; sourceTree = "<group>"; };
+		84928070222126F80082BBBE /* Numeral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numeral.swift; sourceTree = "<group>"; };
 		8C942DC36BD8018C5B4E278DC673652E /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = sources/BigInt.swift; sourceTree = "<group>"; };
 		908364BCE7A5A05D245656CEAB8AA22E /* SipHasher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHasher.swift; path = SipHash/SipHasher.swift; sourceTree = "<group>"; };
 		90894FE9C0A63B6C02F4D49D4B9F897C /* KeilSchrift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeilSchrift.swift; path = Numeral/Classes/KeilSchrift.swift; sourceTree = "<group>"; };
@@ -622,6 +625,7 @@
 		D2846A10FD124682ADFE6B984DC6BF9A /* Numeral */ = {
 			isa = PBXGroup;
 			children = (
+				84928070222126F80082BBBE /* Numeral.swift */,
 				90894FE9C0A63B6C02F4D49D4B9F897C /* KeilSchrift.swift */,
 				15FC7BB70301A78D5EACBDB34EDC25B3 /* SpokenNumber.swift */,
 				46509ABEA46E95750265AE3240CF82E0 /* Pod */,
@@ -1034,6 +1038,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84928071222126F80082BBBE /* Numeral.swift in Sources */,
 				34F81D11EF27EF68DDB64A1CA0CA79EB /* KeilSchrift.swift in Sources */,
 				7F9CEEFEC90C77C4FD902D0BA959DB86 /* Numeral-iOS-dummy.m in Sources */,
 				E813A5F28B93AC036A271A1567C983F0 /* SpokenNumber.swift in Sources */,
@@ -1094,6 +1099,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84928072222126F80082BBBE /* Numeral.swift in Sources */,
 				F87DCE0E3C3385F93E3E4F09498CDA4D /* KeilSchrift.swift in Sources */,
 				F2E66B96BB45166EB8588EDD4979AE20 /* Numeral-watchOS-dummy.m in Sources */,
 				3C561FA9B9BF5C60FFA8DACA03FDD470 /* SpokenNumber.swift in Sources */,
