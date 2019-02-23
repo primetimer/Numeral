@@ -74,7 +74,7 @@ public class SpokenNumber {
 	let bigger = [ "", "thou\u{00AD}sand", "mi\u{00AD}llion", "bi\u{00AD}llion" , "tri\u{00AD}llion", "qua\u{00AD}drillion", "quin\u{00AD}tilion","sex\u{00AD}tillion","sep\u{00AD}tillion","oct\u{00AD}illion","No\u{00AD}nillion","De\u{00AD}cillion","Undecillion",   "Duo\u{00AD}decillion","Tre\u{00AD}decillion","Quattuor\u{00AD}decillion","Quin\u{00AD}decillion","Sex\u{00AD}decillion","Septen\u{00AD}decillion","Octo\u{00AD}decillion","Novem\u{00AD}decillion","Vigin\u{00AD}tillion"]
 	let hundred = "hun\u{00AD}dred"
 	let soft = "\u{00AD}"
-	func spoken(n: BigUInt) -> String {
+	public func spoken(n: BigUInt) -> String {
 		if n < 20 { return small[Int(n)] }
 		if n < 100 {
 			var str = tens[Int(n) / 10]
@@ -125,7 +125,7 @@ public class SpokenNumberFrench {
 	let thousand = "mille"
 	let soft = "\u{00AD}"
 	
-	func spoken(n: BigUInt) -> String {
+	public func spoken(n: BigUInt) -> String {
 		if n < 20 { return small[Int(n)] }
 		if n >= 70 && n<80 {
 			return seventy[Int(n)-70]
@@ -318,12 +318,12 @@ public class SpokenNumberGerman {
 	let bigger3 = ["mi\u{00AD}lliard", "bi\u{00AD}lliard" , "tri\u{00AD}lliard", "qua\u{00AD}drilliard", "quin\u{00AD}tiliard","sex\u{00AD}tilliard","sep\u{00AD}tilliard","oct\u{00AD}illiard","No\u{00AD}nilliard"]
 	let thousand = "tau\u{00AD}send"
 	
-	func Spoken(n: BigUInt) -> String {
+	public func Spoken(n: BigUInt) -> String {
 		var ans = spoken(n: n)
 		ans.capitalizeFirstLetter()
 		return ans
 	}
-	func spoken(n: BigUInt) -> String {
+	public func spoken(n: BigUInt) -> String {
 		
 		func capitalize(_ prefifx : String, _ unit: String) -> String {
 			return prefifx.capitalizingFirstLetter() + " " + unit.capitalizingFirstLetter()
@@ -418,7 +418,7 @@ public class SpokenNumberLatin {
     
     let soft = "\u{00AD}"
     
-    func spoken(n: BigUInt) -> String {
+    public func spoken(n: BigUInt) -> String {
         var (stellen,digit,ans) = (self,Int(n % 10),"")
         if n < 20 { return small[Int(n)] }
         if n < 100 {
@@ -499,7 +499,7 @@ public class SpokenNumberLatin {
         return "myriades"
     }
     
-    func Explain(n: BigUInt) -> String {
+    public func Explain(n: BigUInt) -> String {
         var (digit,ans) = (Int(n % 10),"")
         if n <= 10 { return String(n % 20)}
         if n < 20 { return  String(digit) + "+10" }
@@ -593,7 +593,7 @@ public class SpokenNumberDanish {
 	
 	
 	
-	func spoken(n: BigUInt) -> String {
+	public func spoken(n: BigUInt) -> String {
 		var (stellen,digit,ans) = (self,Int(n % 10),"")
 		if n < 20 { return small[Int(n)] }
 		if n < 100 {
@@ -647,7 +647,7 @@ public class SpokenNumberDanish {
 		return "myriades"
 	}
 	
-	func Explain(n: BigUInt) -> String {
+	public func Explain(n: BigUInt) -> String {
 		var (digit,ans) = (Int(n % 10),"")
 		if n <= 12 { return String(n % 20)}
 		if n < 20 { return  String(digit) + "+10" }
