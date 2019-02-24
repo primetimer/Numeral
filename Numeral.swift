@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Numeral : Int, CaseIterable {
+public enum Numeral : Int, CaseIterable {
     case None = -1, FormatUS = 0, Latin, Roman
     case Indian, Abjad, Egyptian, Phonician, Greek, Hebraian
     case Babylon, Chinese, ChineseFinancial, Maya, Scientific, Duodezimal, Rod, Kyrillic, Glagolitic, Khmer,Sanskrit, Klingon,Kharoshthi

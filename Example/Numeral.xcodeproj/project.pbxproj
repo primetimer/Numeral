@@ -88,7 +88,7 @@
 		607FACE51AFB9204008FA782 /* Numeral_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Numeral_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		66278675A7901206286319F2 /* Numeral.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Numeral.podspec; path = ../Numeral.podspec; sourceTree = "<group>"; };
+		66278675A7901206286319F2 /* Numeral.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Numeral.podspec; path = ../Numeral.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7467101E1F78D8CF35D94F2A /* Pods_Numeral_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numeral_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84021182222083AA00B1C7DB /* NumeralWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumeralWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84021185222083AA00B1C7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
