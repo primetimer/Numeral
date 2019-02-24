@@ -9,7 +9,7 @@ import Foundation
 import BigInt
 
 public enum NumeralType : Int, CaseIterable {
-    case None = -1, FormatUS = 0, Roman
+    case None = -1, FormatUS = 0, Roman = 1
     case Indian, Abjad, Egyptian, Phonician, Greek, Hebraian
     case Babylon, Chinese, ChineseFinancial, Maya, Scientific, Duodezimal, Rod, Kyrillic, Glagolitic, Khmer,Sanskrit, Klingon,Kharoshthi
     
@@ -72,7 +72,7 @@ public enum NumeralType : Int, CaseIterable {
         case .Roman:
             return nr.Roman()
         case .Indian:
-            return nr.Roman()
+            return nr.IndianArabian()
         case .Abjad:
             return nr.Abjad()
         case .Egyptian:
