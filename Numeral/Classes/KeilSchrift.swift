@@ -10,6 +10,29 @@ import Foundation
 import BigInt
 
 public extension BigUInt {
+    func scientific() -> String {
+        //let dot = "\u{22C5}"
+        let s = String(self)
+        guard let d = Double(s) else { return "\u{221E}" }
+        //if d.isZero { return "0" }
+        
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .scientific
+        formatter.positiveFormat = "0.000E0"
+        formatter.exponentSymbol = "e"
+        let number = NSNumber(value: d)
+        let ans = formatter.string(from :number) ?? description
+        
+        let d2 = Double(ans)
+        if d2 != d {
+            return "\u{2248}" + ans
+        }
+        return ans
+    }
+}
+
+
+public extension BigUInt {
 	func Duodezimal() -> String {	
 		//let superscript = '⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ ᴬ ᴮ ᴰ ᴱ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴼ ᴾ ᴿ ᵀ ᵁ ⱽ ᵂ ₐ ₑ ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ ᵣ ₛ ₜ ᵤ ᵥ ₓ ᵅ ᵝ ᵞ ᵟ ᵋ ᶿ ᶥ ᶲ ᵠ ᵡ ᵦ ᵧ ᵨ ᵩ ᵪ'
 		

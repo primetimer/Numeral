@@ -28,50 +28,52 @@
 		210F721F0E461607E778A2B451D9268C /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF77257C182CDCADF44190516948592 /* Division.swift */; };
 		2142E2E0F6558135D000CC9FAEDAD2ED /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252A590269EF43DC9D92403E233DE816 /* Random.swift */; };
 		22600821C4BA965BFF717A0EEBF5166E /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B436B66605334BAAF89FEF386233 /* String Conversion.swift */; };
+		2280A00518BDB101D236A7F925DC0182 /* Numeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2B319156982869D1E73CCF0B58109 /* Numeral.swift */; };
 		2645053D1C7B466DE8B9CD09DBF4093A /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F928683E640F6B8A2545DF3BE9C235 /* Comparable.swift */; };
 		267AB2FAD65BC75FBD0D62C8A02FF84D /* RandomUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FB8460CE66F05DFE87FF34C20C2BB /* RandomUInt64.swift */; };
 		27A18D94A5BEABA76CE1BED36F7C70AD /* SipHash-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 384492168472AF5587DAB695360AD7C6 /* SipHash-iOS-dummy.m */; };
 		27B06DDA11E8C275371F4D628D120BCD /* BigInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62887537C77CEEBD959DECE769A0B2B3 /* BigInt.framework */; };
 		2C1FDC58272A10E033B0C58D8917819F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B054927F54F581B7AAEC35D87B2E32D1 /* Foundation.framework */; };
 		2F60D5988F82D01AF3144A5D9D9F7F5F /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D8185C4D01CE6D8656F1FE638F608 /* Addition.swift */; };
-		34F81D11EF27EF68DDB64A1CA0CA79EB /* KeilSchrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90894FE9C0A63B6C02F4D49D4B9F897C /* KeilSchrift.swift */; };
 		38D1F0321300A5E451CF003193F44506 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEE85B67BE617B64C4939CCD4F242E /* GCD.swift */; };
 		3972F7D81BEDBD6FA9CD06574B558225 /* BigInt-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 152365034A8158DBD090DB62D5FC49EF /* BigInt-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C561FA9B9BF5C60FFA8DACA03FDD470 /* SpokenNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC7BB70301A78D5EACBDB34EDC25B3 /* SpokenNumber.swift */; };
 		3F14480B84A1FF8782163A3E5ED1AA6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B054927F54F581B7AAEC35D87B2E32D1 /* Foundation.framework */; };
 		3FE883FF5E4F5DF5EA18F86DE88E2322 /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C12A9D48E393DEB4883B6AEFB86F1 /* Strideable.swift */; };
 		41C324038EA111182AF98EC6199695F6 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1EF2D03CCF71647637805A50C3EA9 /* Data Conversion.swift */; };
+		42BED03A2702DBDFE09AFAFA912E53E9 /* Numeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2B319156982869D1E73CCF0B58109 /* Numeral.swift */; };
 		42CB0F721747A9701F940AF820AFF293 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B436B66605334BAAF89FEF386233 /* String Conversion.swift */; };
 		42D4651C5A50EF1C73D274DA79803DCB /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400C00CC38E9B0D3A2E112CF9F67894 /* Multiplication.swift */; };
 		46AFFB5FF4E055B10D271740E26CADE1 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CCF141ED988F0A9A249A1B1E90C60 /* Integer Conversion.swift */; };
 		470A607E72656A41C7EC5901A90EE3DB /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0270D8E35DE46E4EA1C3DD0427FB8D /* Floating Point Conversion.swift */; };
-		4BDAC632B92CA9339E1E66872B7EA6F5 /* Numeral-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E164A905553E8FF686308D295D6389FF /* Numeral-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BDAC632B92CA9339E1E66872B7EA6F5 /* Numeral-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF75BD8B493661ED016EBF0ACDB66C57 /* Numeral-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EB8886B005DC40911018EF843714F77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194B4AEB2D058E955EFFA988F5F64EC4 /* Foundation.framework */; };
 		517D7E1682F9D4D202E35D69F5531455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194B4AEB2D058E955EFFA988F5F64EC4 /* Foundation.framework */; };
 		51DA6A705DC41E739FB77A475727F148 /* SipHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4013B4738295E6303FD4F2BFE5A17496 /* SipHash.framework */; };
 		556608C13746AA9064B56057CBD5E2AF /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE207C92D166B8E636A7597709D2393 /* Words and Bits.swift */; };
 		614AB94C4CB114F459481FC6A1302363 /* SipHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908364BCE7A5A05D245656CEAB8AA22E /* SipHasher.swift */; };
 		64E4758332EC9B5B7BBAA84D797769EC /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEE85B67BE617B64C4939CCD4F242E /* GCD.swift */; };
+		6AFF20133C6D02C5B83CA7AC9048CECB /* SpokenNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94962663AC3EB6FE349529F99040D794 /* SpokenNumber.swift */; };
 		70983D495A37DC16E6B9F72CDB39D881 /* RandomUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FB8460CE66F05DFE87FF34C20C2BB /* RandomUInt64.swift */; };
 		771C070F3FFF96C4A0D93BF9BBB29263 /* Pods-Numeral_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A9A64048C5D4E533E306C05570C30D /* Pods-Numeral_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AB5EDC4F5DAFB6323023C701E1B73C5 /* Pods-Numeral_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBED5866AA1821A81BB5733B68EC733 /* Pods-Numeral_Example-dummy.m */; };
 		7CD9CF33B5BD24849323F22CC03A0531 /* SipHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4B7DD715A45620D762A688E043FEA /* SipHashable.swift */; };
 		7D75156DFEEA21E37E4BD42B14C35EB0 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C942DC36BD8018C5B4E278DC673652E /* BigInt.swift */; };
 		7E85F1FCF8684C9624C7CB3F40CEC64B /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F928683E640F6B8A2545DF3BE9C235 /* Comparable.swift */; };
-		7F9CEEFEC90C77C4FD902D0BA959DB86 /* Numeral-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1AC6F70ABE2E3915F1E10D609F093 /* Numeral-iOS-dummy.m */; };
+		82908E5375A8B24008BE41814F99ED1A /* Numeral-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED596FCF4CEEE0A6B58F4B4FA9725172 /* Numeral-watchOS-dummy.m */; };
 		82993D25B92AAD2E774AAC3837C1DEE1 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F82E23FB418F60C06431AABDF16E2 /* Bitwise Ops.swift */; };
-		84D2B5A02222ECDF00DFE28B /* Numeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2B59F2222ECDF00DFE28B /* Numeral.swift */; };
-		84D2B5A12222ECDF00DFE28B /* Numeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2B59F2222ECDF00DFE28B /* Numeral.swift */; };
 		84DF1E824616A4F933231A16E459823F /* Primitive Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCCE207305C91E054F11A8BD3EA3DF /* Primitive Types.swift */; };
 		8AD29ADC24BCD457BB2FAEDF1FD9074F /* Pods-NumeralWatch Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A122C508871AD0249000057BAA5375 /* Pods-NumeralWatch Extension-dummy.m */; };
 		8C7DD233EEA1220644B85A126937ADE3 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400C00CC38E9B0D3A2E112CF9F67894 /* Multiplication.swift */; };
 		90A5880060B7ED00F4A5584B1E70CA93 /* SipHash-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CAE4C980AB8DF8F2BEC2555156BAC /* SipHash-watchOS-dummy.m */; };
 		91229F18795E8503B3E3E59ADFE13C51 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848493EAF59A08FE2BF896A9D0C293CF /* Exponentiation.swift */; };
+		931B6F05B82E3739D84A06718BBCC3FC /* Numeral-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE91F682689C55A8E2D92A0280DB7B /* Numeral-iOS-dummy.m */; };
+		93F2F61BB480205D6F06DCAA409CEA86 /* KeilSchrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8A9E7D56AF757AA12B3D9130BA34F /* KeilSchrift.swift */; };
 		95D316A07A5BF9A97B4FF0E080A0EA53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B054927F54F581B7AAEC35D87B2E32D1 /* Foundation.framework */; };
 		97E27675F51F6DE8B4DDA91745E98EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194B4AEB2D058E955EFFA988F5F64EC4 /* Foundation.framework */; };
 		A0A21CD738F1077EE37E3443878D7277 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B073D40CA692BCFC0F5BADC12E6BB /* Hashable.swift */; };
 		A275E58ACDE97FD16B9EE9CEE41A068C /* SipHash-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CD7042780DED4C8E06D5382BE69493 /* SipHash-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2CE39CD975C38FBA8CFD20D0A1871C6 /* Numeral-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6847A552F832E423DFD2CE1492FE2429 /* Numeral-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA66763EB069FB46B566D2D5DBBDE0B7 /* SpokenNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94962663AC3EB6FE349529F99040D794 /* SpokenNumber.swift */; };
+		B2CE39CD975C38FBA8CFD20D0A1871C6 /* Numeral-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F121FDFC8D4B917EEBE42FFD98E9DE6B /* Numeral-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B56718237EF48971A3EC0B448B064127 /* SipHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4B7DD715A45620D762A688E043FEA /* SipHashable.swift */; };
 		BBF4CE8FAEDBAA51563EADABCCA91725 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B073D40CA692BCFC0F5BADC12E6BB /* Hashable.swift */; };
 		BC4034C21FA7253D29A9CE9F8FEE9715 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B04046B1FAEBEDA04E893A0F0BAC51 /* Subtraction.swift */; };
@@ -81,6 +83,7 @@
 		C3374B7A5B3F115C0FFF747B69053C6B /* Pods-Numeral_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE7D3A59F8A46A655AEF0954EA4DE4 /* Pods-Numeral_Tests-dummy.m */; };
 		C4A37EF229207D21500435A7AB3A6E7C /* BigInt-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B64B17EAE9153141FB7A5D909845B904 /* BigInt-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB0AE4591C3AC5C2BD6D46364172C6AE /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C942DC36BD8018C5B4E278DC673652E /* BigInt.swift */; };
+		D0DE62A465BA805642ED11281DE115A9 /* KeilSchrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8A9E7D56AF757AA12B3D9130BA34F /* KeilSchrift.swift */; };
 		D7B1FEB99C47EA245652D88FE821ED54 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF77257C182CDCADF44190516948592 /* Division.swift */; };
 		D8DDDBD00B4B65E7F0F4CE4A266ADB74 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A801DDDC588D16153CDAD0CBAECCD /* Square Root.swift */; };
 		DAB91DFAB781AAB120AE41E05D7CDCE5 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F82E23FB418F60C06431AABDF16E2 /* Bitwise Ops.swift */; };
@@ -89,12 +92,9 @@
 		E3A830BFB88E659E2936E982CE104723 /* SipHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4013B4738295E6303FD4F2BFE5A17496 /* SipHash.framework */; };
 		E66203B40C31A80A41D0446CAAC2F5D0 /* Pods-Numeral_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 449FBF2E140B3816DB2677C906799244 /* Pods-Numeral_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7F343B83139D469D7ED2878FECB9DD9 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B04046B1FAEBEDA04E893A0F0BAC51 /* Subtraction.swift */; };
-		E813A5F28B93AC036A271A1567C983F0 /* SpokenNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC7BB70301A78D5EACBDB34EDC25B3 /* SpokenNumber.swift */; };
 		E83A48245B7EED4868FA88CA63395AC5 /* BigInt-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC391F93EEE63A20B722CDA34167A4 /* BigInt-iOS-dummy.m */; };
 		E955A9C59D6E8855F4DDF108A2BE7366 /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C12A9D48E393DEB4883B6AEFB86F1 /* Strideable.swift */; };
-		F2E66B96BB45166EB8588EDD4979AE20 /* Numeral-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 163DBF7EB186781B43871F0B7CF1AC89 /* Numeral-watchOS-dummy.m */; };
 		F6CEDFEFE3C0E2290E50962D5C54481B /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0270D8E35DE46E4EA1C3DD0427FB8D /* Floating Point Conversion.swift */; };
-		F87DCE0E3C3385F93E3E4F09498CDA4D /* KeilSchrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90894FE9C0A63B6C02F4D49D4B9F897C /* KeilSchrift.swift */; };
 		FC19206534765093B1DA9CD902ABBD8B /* SipHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4013B4738295E6303FD4F2BFE5A17496 /* SipHash.framework */; };
 		FC77D30EFB72FB34C079E7096B03335B /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE207C92D166B8E636A7597709D2393 /* Words and Bits.swift */; };
 		FF1B110E3B492AAA1EE0C62CBC7DB724 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A801DDDC588D16153CDAD0CBAECCD /* Square Root.swift */; };
@@ -197,116 +197,116 @@
 /* Begin PBXFileReference section */
 		005CF29AB82E40F0AAD4F981AF5441CE /* BigInt-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BigInt-watchOS-prefix.pch"; path = "../BigInt-watchOS/BigInt-watchOS-prefix.pch"; sourceTree = "<group>"; };
 		03018BDD8BB90AAE811A834633FDFD22 /* Pods-Numeral_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Numeral_Example.release.xcconfig"; sourceTree = "<group>"; };
+		058D2288C793C3FB79BF5757264F6E2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Numeral-watchOS/Info.plist"; sourceTree = "<group>"; };
 		067CCF141ED988F0A9A249A1B1E90C60 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "sources/Integer Conversion.swift"; sourceTree = "<group>"; };
-		06AA156CE3842EF2DC1A44940B41DA0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E2CCE86AC069C6417441B655327F31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0DE207C92D166B8E636A7597709D2393 /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Words and Bits.swift"; path = "sources/Words and Bits.swift"; sourceTree = "<group>"; };
-		0E7BCD2D561DD9E36AFE4D128EF7BD49 /* Numeral-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Numeral-watchOS.xcconfig"; path = "../Numeral-watchOS/Numeral-watchOS.xcconfig"; sourceTree = "<group>"; };
 		0F0270D8E35DE46E4EA1C3DD0427FB8D /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Floating Point Conversion.swift"; path = "sources/Floating Point Conversion.swift"; sourceTree = "<group>"; };
 		11E9DF6227F44B07C7384DED9FFE2D2E /* Pods-Numeral_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Numeral_Tests.modulemap"; sourceTree = "<group>"; };
 		152365034A8158DBD090DB62D5FC49EF /* BigInt-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BigInt-watchOS-umbrella.h"; path = "../BigInt-watchOS/BigInt-watchOS-umbrella.h"; sourceTree = "<group>"; };
-		15FC7BB70301A78D5EACBDB34EDC25B3 /* SpokenNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpokenNumber.swift; path = Numeral/Classes/SpokenNumber.swift; sourceTree = "<group>"; };
-		163DBF7EB186781B43871F0B7CF1AC89 /* Numeral-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Numeral-watchOS-dummy.m"; path = "../Numeral-watchOS/Numeral-watchOS-dummy.m"; sourceTree = "<group>"; };
 		16B04046B1FAEBEDA04E893A0F0BAC51 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = sources/Subtraction.swift; sourceTree = "<group>"; };
 		172A7A3B0DBFE21D6F0D92C00F204924 /* Pods-NumeralWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumeralWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
 		18CE7D3A59F8A46A655AEF0954EA4DE4 /* Pods-Numeral_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Numeral_Tests-dummy.m"; sourceTree = "<group>"; };
 		194B4AEB2D058E955EFFA988F5F64EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1CB95DEB4CD87CE56124C36D568FC132 /* Numeral-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Numeral-iOS-prefix.pch"; sourceTree = "<group>"; };
-		211A1E1BCB50C8EC67E2E6428C53C50A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		212CAE4C980AB8DF8F2BEC2555156BAC /* SipHash-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SipHash-watchOS-dummy.m"; path = "../SipHash-watchOS/SipHash-watchOS-dummy.m"; sourceTree = "<group>"; };
-		224AB1DB8425ABC7081CB2389E6D09A2 /* Pods_NumeralWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumeralWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224AB1DB8425ABC7081CB2389E6D09A2 /* Pods_NumeralWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NumeralWatch_Extension.framework; path = "Pods-NumeralWatch Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4B7DD715A45620D762A688E043FEA /* SipHashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHashable.swift; path = SipHash/SipHashable.swift; sourceTree = "<group>"; };
 		252A590269EF43DC9D92403E233DE816 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = sources/Random.swift; sourceTree = "<group>"; };
 		25F928683E640F6B8A2545DF3BE9C235 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = sources/Comparable.swift; sourceTree = "<group>"; };
 		2A5C5ADDB9F45564757554E2E6AA0DCA /* BigInt-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BigInt-iOS.xcconfig"; sourceTree = "<group>"; };
+		2CFE91F682689C55A8E2D92A0280DB7B /* Numeral-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Numeral-iOS-dummy.m"; sourceTree = "<group>"; };
 		2F545E6E5AD5B870847E7060AD3A3A34 /* Pods-Numeral_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Numeral_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30D1261EF528AB5255592F22EDD1E754 /* Pods-NumeralWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumeralWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		3400C00CC38E9B0D3A2E112CF9F67894 /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = sources/Multiplication.swift; sourceTree = "<group>"; };
 		384492168472AF5587DAB695360AD7C6 /* SipHash-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SipHash-iOS-dummy.m"; sourceTree = "<group>"; };
-		3BA4E6B17927282FFE08A9571BB31D8D /* Numeral-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Numeral-watchOS-prefix.pch"; path = "../Numeral-watchOS/Numeral-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		39412C034E02B457F86BD9D90A190240 /* Numeral-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Numeral-iOS.modulemap"; sourceTree = "<group>"; };
 		3E376FD4C7BCA5252D8D51FEE4F555A6 /* Pods-Numeral_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Numeral_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4013B4738295E6303FD4F2BFE5A17496 /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SipHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41572799CF2D3448CB88835CAC045074 /* Numeral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Numeral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41572799CF2D3448CB88835CAC045074 /* Numeral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Numeral.framework; path = "Numeral-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A122C508871AD0249000057BAA5375 /* Pods-NumeralWatch Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumeralWatch Extension-dummy.m"; sourceTree = "<group>"; };
-		42703A874438F01A32FB8314F53A6C9C /* Numeral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Numeral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42703A874438F01A32FB8314F53A6C9C /* Numeral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Numeral.framework; path = "Numeral-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		449FBF2E140B3816DB2677C906799244 /* Pods-Numeral_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Numeral_Example-umbrella.h"; sourceTree = "<group>"; };
 		4550564FCA761940EAB2AF79B8F313C5 /* Pods-Numeral_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Numeral_Example.modulemap"; sourceTree = "<group>"; };
 		4799469D02EA1D2EA50F122C9AF0E7A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SipHash-watchOS/Info.plist"; sourceTree = "<group>"; };
+		4BEB7994BF58F242CCF2AFE351FA7C95 /* Numeral.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Numeral.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F1B073D40CA692BCFC0F5BADC12E6BB /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = sources/Hashable.swift; sourceTree = "<group>"; };
 		4FBCCE207305C91E054F11A8BD3EA3DF /* Primitive Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Primitive Types.swift"; path = "SipHash/Primitive Types.swift"; sourceTree = "<group>"; };
-		554A512160492536DCFD3D62D062DD48 /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SipHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		554A512160492536DCFD3D62D062DD48 /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SipHash.framework; path = "SipHash-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5782B2D18285B62B8B46440E663561F4 /* BigInt-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "BigInt-watchOS.xcconfig"; path = "../BigInt-watchOS/BigInt-watchOS.xcconfig"; sourceTree = "<group>"; };
 		583DE565364E59158E0D71949D01E6CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE47D51434074A24B4FF9C7D9D73F68 /* Pods-Numeral_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Numeral_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5CAEE85B67BE617B64C4939CCD4F242E /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = sources/GCD.swift; sourceTree = "<group>"; };
 		5E350B70E0C0ED3EA74D3FCB567C6712 /* Pods-NumeralWatch Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumeralWatch Extension-frameworks.sh"; sourceTree = "<group>"; };
-		5E413162ECFFEBBC5ADCB866AE7F1851 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Numeral-watchOS/Info.plist"; sourceTree = "<group>"; };
-		5FE01E593787816B127A0060449EECEE /* Numeral-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Numeral-watchOS.modulemap"; path = "../Numeral-watchOS/Numeral-watchOS.modulemap"; sourceTree = "<group>"; };
+		5ECE8763D3E381C5AB3E6C4934AB18B9 /* Numeral-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Numeral-iOS-prefix.pch"; sourceTree = "<group>"; };
+		5ED2B319156982869D1E73CCF0B58109 /* Numeral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Numeral.swift; path = Numeral/Classes/Numeral.swift; sourceTree = "<group>"; };
 		601C1C8045DA4B1007790CB1CEB76601 /* BigInt-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "BigInt-watchOS.modulemap"; path = "../BigInt-watchOS/BigInt-watchOS.modulemap"; sourceTree = "<group>"; };
 		6210400FE597D4A11FD19D4E608B122A /* Pods-NumeralWatch Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumeralWatch Extension-acknowledgements.plist"; sourceTree = "<group>"; };
 		6253993968186719C72524D2D4203E76 /* Pods-Numeral_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Numeral_Tests-resources.sh"; sourceTree = "<group>"; };
 		62887537C77CEEBD959DECE769A0B2B3 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63429D4D70F2414F440F348E4EADF1B7 /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = sources/Shifts.swift; sourceTree = "<group>"; };
 		675FF5EF4956837C59261BF647050EE2 /* Pods-Numeral_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Numeral_Example-resources.sh"; sourceTree = "<group>"; };
-		6847A552F832E423DFD2CE1492FE2429 /* Numeral-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Numeral-iOS-umbrella.h"; sourceTree = "<group>"; };
 		690DAD0A2667E120E54B0FA5D3D69FCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AFAF8E0EAC999FAEFF73FCDBADBDB68 /* BigInt-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BigInt-watchOS-dummy.m"; path = "../BigInt-watchOS/BigInt-watchOS-dummy.m"; sourceTree = "<group>"; };
 		6BAED7F9668B57DC4B08BE63D9CA6278 /* Pods-Numeral_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Numeral_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6C29CB85E1C1187A1422B408746D56B6 /* Pods-Numeral_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Numeral_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D0990EB1EDA485AEE35E0F7BB57B886 /* Pods-NumeralWatch Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumeralWatch Extension-resources.sh"; sourceTree = "<group>"; };
-		6E531BFE4C5168F329F1864D671CAD81 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED1AC6F70ABE2E3915F1E10D609F093 /* Numeral-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Numeral-iOS-dummy.m"; sourceTree = "<group>"; };
+		6E531BFE4C5168F329F1864D671CAD81 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt.framework; path = "BigInt-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7416CE5F4418A8372B364F45135BC3B5 /* Pods-NumeralWatch Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NumeralWatch Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B0FB8460CE66F05DFE87FF34C20C2BB /* RandomUInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomUInt64.swift; path = SipHash/RandomUInt64.swift; sourceTree = "<group>"; };
 		7D1F7453624F3E32BB4A56AA44EE4AB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C260E008127DC2F08AB55CACBDD567 /* SipHash-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHash-iOS-prefix.pch"; sourceTree = "<group>"; };
 		848493EAF59A08FE2BF896A9D0C293CF /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = sources/Exponentiation.swift; sourceTree = "<group>"; };
-		84D2B59F2222ECDF00DFE28B /* Numeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Numeral.swift; path = Numeral/Classes/Numeral.swift; sourceTree = "<group>"; };
+		87CA2356429A2CAB2CC8EE18DD2C4208 /* Numeral-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Numeral-watchOS.modulemap"; path = "../Numeral-watchOS/Numeral-watchOS.modulemap"; sourceTree = "<group>"; };
+		8AB2BA06454C7289F463113577E73D86 /* Numeral-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Numeral-watchOS.xcconfig"; path = "../Numeral-watchOS/Numeral-watchOS.xcconfig"; sourceTree = "<group>"; };
 		8C942DC36BD8018C5B4E278DC673652E /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = sources/BigInt.swift; sourceTree = "<group>"; };
 		908364BCE7A5A05D245656CEAB8AA22E /* SipHasher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHasher.swift; path = SipHash/SipHasher.swift; sourceTree = "<group>"; };
-		90894FE9C0A63B6C02F4D49D4B9F897C /* KeilSchrift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeilSchrift.swift; path = Numeral/Classes/KeilSchrift.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		939EB3D48B48099493168B185FEB4B8E /* Numeral-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Numeral-iOS.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94962663AC3EB6FE349529F99040D794 /* SpokenNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpokenNumber.swift; path = Numeral/Classes/SpokenNumber.swift; sourceTree = "<group>"; };
 		9540BDC009A1CE11484430E5B9A84EBE /* SipHash-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SipHash-iOS.modulemap"; sourceTree = "<group>"; };
 		98A1EF2D03CCF71647637805A50C3EA9 /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "sources/Data Conversion.swift"; sourceTree = "<group>"; };
-		9978DA475A8F725C70426976D97851D5 /* Numeral.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Numeral.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C2502B3F011B32BEA674E8A84DB998D /* Pods-NumeralWatch Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NumeralWatch Extension-umbrella.h"; sourceTree = "<group>"; };
+		A5F19EADA3BBA2863E10ECA761ED7B65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A60256662322A1AC85D1F646F7307D66 /* SipHash-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SipHash-iOS.xcconfig"; sourceTree = "<group>"; };
 		A9ED54F841EEDED2EB2F8BFFC07AF2C6 /* SipHash-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SipHash-watchOS-prefix.pch"; path = "../SipHash-watchOS/SipHash-watchOS-prefix.pch"; sourceTree = "<group>"; };
 		AA6D8185C4D01CE6D8656F1FE638F608 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = sources/Addition.swift; sourceTree = "<group>"; };
+		AAFB8A96A6150C1FAACEB39D67DB9889 /* Numeral-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Numeral-watchOS-prefix.pch"; path = "../Numeral-watchOS/Numeral-watchOS-prefix.pch"; sourceTree = "<group>"; };
 		B054927F54F581B7AAEC35D87B2E32D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B4BB8904C96F4E179D66ABACE5C9B6FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5965114A14A9D24A91422750D9A0600 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../BigInt-watchOS/Info.plist"; sourceTree = "<group>"; };
 		B64B17EAE9153141FB7A5D909845B904 /* BigInt-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-iOS-umbrella.h"; sourceTree = "<group>"; };
 		B6D8B436B66605334BAAF89FEF386233 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "sources/String Conversion.swift"; sourceTree = "<group>"; };
-		B70B135F884958A946FF75B5819B446A /* Pods_Numeral_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numeral_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70B135F884958A946FF75B5819B446A /* Pods_Numeral_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Numeral_Example.framework; path = "Pods-Numeral_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DE0D58AA61250E6427055A66F97C0D /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = sources/BigUInt.swift; sourceTree = "<group>"; };
 		B9A9A64048C5D4E533E306C05570C30D /* Pods-Numeral_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Numeral_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BBC06400C57FC60B6759B1E3804E40B1 /* Pods-NumeralWatch Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NumeralWatch Extension.modulemap"; sourceTree = "<group>"; };
 		BBFC391F93EEE63A20B722CDA34167A4 /* BigInt-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-iOS-dummy.m"; sourceTree = "<group>"; };
-		BC12A22AC5965628A80ED47F4DCF2AC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C0EECCF58302BF515296B84312DFA4D9 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = sources/Codable.swift; sourceTree = "<group>"; };
 		C2130E0B3284D35B728C59637CA627F2 /* BigInt-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "BigInt-iOS.modulemap"; sourceTree = "<group>"; };
 		C22A9AB07E9B53F6771479EF80A5C17A /* Pods-Numeral_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Numeral_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C87EBDCBFDA0F712BD51EDA9165D1648 /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SipHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87EBDCBFDA0F712BD51EDA9165D1648 /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SipHash.framework; path = "SipHash-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A5F7F27434D04C757013BD52238012 /* BigInt-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-iOS-prefix.pch"; sourceTree = "<group>"; };
 		CB7C12A9D48E393DEB4883B6AEFB86F1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = sources/Strideable.swift; sourceTree = "<group>"; };
-		CCDE954EAB3107EBFCD8B87DD924046E /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE601B2960EC970C3000504EF7970403 /* Numeral-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Numeral-iOS.xcconfig"; sourceTree = "<group>"; };
+		CCDE954EAB3107EBFCD8B87DD924046E /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt.framework; path = "BigInt-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBED5866AA1821A81BB5733B68EC733 /* Pods-Numeral_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Numeral_Example-dummy.m"; sourceTree = "<group>"; };
 		D0730D638B18CA29709F08C9DC0A683D /* Pods-Numeral_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Numeral_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D1739F2292812FAF00031729A09232C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2FBCDDDF59B4DB324041817810C5279 /* Pods_Numeral_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numeral_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FBCDDDF59B4DB324041817810C5279 /* Pods_Numeral_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Numeral_Tests.framework; path = "Pods-Numeral_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CF692C34A5246BC733D55CAA34776D /* SipHash-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SipHash-watchOS-umbrella.h"; path = "../SipHash-watchOS/SipHash-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		D68A801DDDC588D16153CDAD0CBAECCD /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "sources/Square Root.swift"; sourceTree = "<group>"; };
 		D8A17F2B89602336A019193F7E1DC568 /* Pods-Numeral_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Numeral_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DAF77257C182CDCADF44190516948592 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = sources/Division.swift; sourceTree = "<group>"; };
 		DC63F7134E11826E544262DC2043AE43 /* SipHash-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SipHash-watchOS.modulemap"; path = "../SipHash-watchOS/SipHash-watchOS.modulemap"; sourceTree = "<group>"; };
-		E164A905553E8FF686308D295D6389FF /* Numeral-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Numeral-watchOS-umbrella.h"; path = "../Numeral-watchOS/Numeral-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		DF75BD8B493661ED016EBF0ACDB66C57 /* Numeral-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Numeral-watchOS-umbrella.h"; path = "../Numeral-watchOS/Numeral-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		E37CD02418C6FF582B661641664496A7 /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "sources/Prime Test.swift"; sourceTree = "<group>"; };
-		EF686172BC79161C4389D3527FEFB5EC /* Numeral-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Numeral-iOS.modulemap"; sourceTree = "<group>"; };
+		ED596FCF4CEEE0A6B58F4B4FA9725172 /* Numeral-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Numeral-watchOS-dummy.m"; path = "../Numeral-watchOS/Numeral-watchOS-dummy.m"; sourceTree = "<group>"; };
+		F121FDFC8D4B917EEBE42FFD98E9DE6B /* Numeral-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Numeral-iOS-umbrella.h"; sourceTree = "<group>"; };
 		F24565CD166E8147EADBD1DCB378CA28 /* Pods-Numeral_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Numeral_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F34F82E23FB418F60C06431AABDF16E2 /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Ops.swift"; path = "sources/Bitwise Ops.swift"; sourceTree = "<group>"; };
 		F4CD7042780DED4C8E06D5382BE69493 /* SipHash-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHash-iOS-umbrella.h"; sourceTree = "<group>"; };
 		F6EB63DC5E5CF4020A32D524F88C53A5 /* SipHash-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SipHash-watchOS.xcconfig"; path = "../SipHash-watchOS/SipHash-watchOS.xcconfig"; sourceTree = "<group>"; };
+		FAE8A9E7D56AF757AA12B3D9130BA34F /* KeilSchrift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeilSchrift.swift; path = Numeral/Classes/KeilSchrift.swift; sourceTree = "<group>"; };
+		FFF09BA283252DD7A95811C510BBF083 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -425,7 +425,7 @@
 		1EC5A7EEECE645C8381B2F8A1CF6C477 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D2846A10FD124682ADFE6B984DC6BF9A /* Numeral */,
+				34B1814230415CF05E05720540F8974D /* Numeral */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -457,6 +457,7 @@
 				0DE207C92D166B8E636A7597709D2393 /* Words and Bits.swift */,
 				229C7B03D566492E54445DBDDF99EA71 /* Support Files */,
 			);
+			name = BigInt;
 			path = BigInt;
 			sourceTree = "<group>";
 		};
@@ -498,31 +499,34 @@
 			path = "Target Support Files/Pods-Numeral_Tests";
 			sourceTree = "<group>";
 		};
-		46509ABEA46E95750265AE3240CF82E0 /* Pod */ = {
+		34B1814230415CF05E05720540F8974D /* Numeral */ = {
 			isa = PBXGroup;
 			children = (
-				211A1E1BCB50C8EC67E2E6428C53C50A /* LICENSE */,
-				9978DA475A8F725C70426976D97851D5 /* Numeral.podspec */,
-				BC12A22AC5965628A80ED47F4DCF2AC6 /* README.md */,
+				FAE8A9E7D56AF757AA12B3D9130BA34F /* KeilSchrift.swift */,
+				5ED2B319156982869D1E73CCF0B58109 /* Numeral.swift */,
+				94962663AC3EB6FE349529F99040D794 /* SpokenNumber.swift */,
+				EA2428A37335A3386DB77155766D2C13 /* Pod */,
+				3DFA7492431A9CF7F5D46A35F542699B /* Support Files */,
 			);
-			name = Pod;
+			name = Numeral;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		49CD77BF469CD4B81245128619FF839D /* Support Files */ = {
+		3DFA7492431A9CF7F5D46A35F542699B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				06AA156CE3842EF2DC1A44940B41DA0C /* Info.plist */,
-				5E413162ECFFEBBC5ADCB866AE7F1851 /* Info.plist */,
-				EF686172BC79161C4389D3527FEFB5EC /* Numeral-iOS.modulemap */,
-				CE601B2960EC970C3000504EF7970403 /* Numeral-iOS.xcconfig */,
-				6ED1AC6F70ABE2E3915F1E10D609F093 /* Numeral-iOS-dummy.m */,
-				1CB95DEB4CD87CE56124C36D568FC132 /* Numeral-iOS-prefix.pch */,
-				6847A552F832E423DFD2CE1492FE2429 /* Numeral-iOS-umbrella.h */,
-				5FE01E593787816B127A0060449EECEE /* Numeral-watchOS.modulemap */,
-				0E7BCD2D561DD9E36AFE4D128EF7BD49 /* Numeral-watchOS.xcconfig */,
-				163DBF7EB186781B43871F0B7CF1AC89 /* Numeral-watchOS-dummy.m */,
-				3BA4E6B17927282FFE08A9571BB31D8D /* Numeral-watchOS-prefix.pch */,
-				E164A905553E8FF686308D295D6389FF /* Numeral-watchOS-umbrella.h */,
+				FFF09BA283252DD7A95811C510BBF083 /* Info.plist */,
+				058D2288C793C3FB79BF5757264F6E2F /* Info.plist */,
+				39412C034E02B457F86BD9D90A190240 /* Numeral-iOS.modulemap */,
+				939EB3D48B48099493168B185FEB4B8E /* Numeral-iOS.xcconfig */,
+				2CFE91F682689C55A8E2D92A0280DB7B /* Numeral-iOS-dummy.m */,
+				5ECE8763D3E381C5AB3E6C4934AB18B9 /* Numeral-iOS-prefix.pch */,
+				F121FDFC8D4B917EEBE42FFD98E9DE6B /* Numeral-iOS-umbrella.h */,
+				87CA2356429A2CAB2CC8EE18DD2C4208 /* Numeral-watchOS.modulemap */,
+				8AB2BA06454C7289F463113577E73D86 /* Numeral-watchOS.xcconfig */,
+				ED596FCF4CEEE0A6B58F4B4FA9725172 /* Numeral-watchOS-dummy.m */,
+				AAFB8A96A6150C1FAACEB39D67DB9889 /* Numeral-watchOS-prefix.pch */,
+				DF75BD8B493661ED016EBF0ACDB66C57 /* Numeral-watchOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Numeral-iOS";
@@ -619,20 +623,8 @@
 				908364BCE7A5A05D245656CEAB8AA22E /* SipHasher.swift */,
 				002977BE5F40375412705709452CA3F8 /* Support Files */,
 			);
+			name = SipHash;
 			path = SipHash;
-			sourceTree = "<group>";
-		};
-		D2846A10FD124682ADFE6B984DC6BF9A /* Numeral */ = {
-			isa = PBXGroup;
-			children = (
-				84D2B59F2222ECDF00DFE28B /* Numeral.swift */,
-				90894FE9C0A63B6C02F4D49D4B9F897C /* KeilSchrift.swift */,
-				15FC7BB70301A78D5EACBDB34EDC25B3 /* SpokenNumber.swift */,
-				46509ABEA46E95750265AE3240CF82E0 /* Pod */,
-				49CD77BF469CD4B81245128619FF839D /* Support Files */,
-			);
-			name = Numeral;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E6C5115272DC38F5BF7E5555FACD5E7A /* iOS */ = {
@@ -641,6 +633,16 @@
 				194B4AEB2D058E955EFFA988F5F64EC4 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA2428A37335A3386DB77155766D2C13 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A5F19EADA3BBA2863E10ECA761ED7B65 /* LICENSE */,
+				4BEB7994BF58F242CCF2AFE351FA7C95 /* Numeral.podspec */,
+				09E2CCE86AC069C6417441B655327F31 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FF2F0FDAACDEBF61E4C8D82549A4D29B /* Pods */ = {
@@ -830,7 +832,7 @@
 			buildConfigurationList = 861FF7BE7D42637649FEC58FDA4A56F5 /* Build configuration list for PBXNativeTarget "Numeral-iOS" */;
 			buildPhases = (
 				6074F94514F208CCFBC4F0B650C8E534 /* Headers */,
-				20B64F64349EC0A5472154F92FB4BF95 /* Sources */,
+				778D065A7F6224EA47753096E0A0B66B /* Sources */,
 				251789757D8B7A15D7A4137936F2F7EE /* Frameworks */,
 				D9CDC885D60B4AD455ADE8C22C55C567 /* Resources */,
 			);
@@ -850,7 +852,7 @@
 			buildConfigurationList = F6E59E6A6742F7B095A93BC48D0511BE /* Build configuration list for PBXNativeTarget "Numeral-watchOS" */;
 			buildPhases = (
 				1A28BBA7D0974DE08C1670CDE1DA1D0A /* Headers */,
-				A905FD06D7E8F84A2B7B0E5F4A5D2AE2 /* Sources */,
+				5458192B02A23396942C608FEE2DD93F /* Sources */,
 				BFF57AEAC3AD82AAE2B939E93D26F7D1 /* Frameworks */,
 				628328D1CC7D578F5AC24F936CFA896E /* Resources */,
 			);
@@ -1034,17 +1036,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20B64F64349EC0A5472154F92FB4BF95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84D2B5A02222ECDF00DFE28B /* Numeral.swift in Sources */,
-				34F81D11EF27EF68DDB64A1CA0CA79EB /* KeilSchrift.swift in Sources */,
-				7F9CEEFEC90C77C4FD902D0BA959DB86 /* Numeral-iOS-dummy.m in Sources */,
-				E813A5F28B93AC036A271A1567C983F0 /* SpokenNumber.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		429AB2162B79156C070D300FA6671A89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1075,6 +1066,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5458192B02A23396942C608FEE2DD93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F2F61BB480205D6F06DCAA409CEA86 /* KeilSchrift.swift in Sources */,
+				82908E5375A8B24008BE41814F99ED1A /* Numeral-watchOS-dummy.m in Sources */,
+				42BED03A2702DBDFE09AFAFA912E53E9 /* Numeral.swift in Sources */,
+				AA66763EB069FB46B566D2D5DBBDE0B7 /* SpokenNumber.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59BB645656611D7FBF72518D73AA8DEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1095,14 +1097,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A905FD06D7E8F84A2B7B0E5F4A5D2AE2 /* Sources */ = {
+		778D065A7F6224EA47753096E0A0B66B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D2B5A12222ECDF00DFE28B /* Numeral.swift in Sources */,
-				F87DCE0E3C3385F93E3E4F09498CDA4D /* KeilSchrift.swift in Sources */,
-				F2E66B96BB45166EB8588EDD4979AE20 /* Numeral-watchOS-dummy.m in Sources */,
-				3C561FA9B9BF5C60FFA8DACA03FDD470 /* SpokenNumber.swift in Sources */,
+				D0DE62A465BA805642ED11281DE115A9 /* KeilSchrift.swift in Sources */,
+				931B6F05B82E3739D84A06718BBCC3FC /* Numeral-iOS-dummy.m in Sources */,
+				2280A00518BDB101D236A7F925DC0182 /* Numeral.swift in Sources */,
+				6AFF20133C6D02C5B83CA7AC9048CECB /* SpokenNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1254,7 +1256,7 @@
 		};
 		1CC128D8D37387E831FF811B3ED32D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE601B2960EC970C3000504EF7970403 /* Numeral-iOS.xcconfig */;
+			baseConfigurationReference = 939EB3D48B48099493168B185FEB4B8E /* Numeral-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1387,7 +1389,7 @@
 		};
 		3CF0AF3923873B2B6578BDBF9875A7D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7BCD2D561DD9E36AFE4D128EF7BD49 /* Numeral-watchOS.xcconfig */;
+			baseConfigurationReference = 8AB2BA06454C7289F463113577E73D86 /* Numeral-watchOS.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1488,7 +1490,7 @@
 		};
 		4A622FB801E30F5AD1863E261386AEED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7BCD2D561DD9E36AFE4D128EF7BD49 /* Numeral-watchOS.xcconfig */;
+			baseConfigurationReference = 8AB2BA06454C7289F463113577E73D86 /* Numeral-watchOS.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1781,7 +1783,7 @@
 		};
 		BB7006FA022E6341729D9F1E66EDA8FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE601B2960EC970C3000504EF7970403 /* Numeral-iOS.xcconfig */;
+			baseConfigurationReference = 939EB3D48B48099493168B185FEB4B8E /* Numeral-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1897,7 +1899,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 				WATCHOS_DEPLOYMENT_TARGET = 5.1;
