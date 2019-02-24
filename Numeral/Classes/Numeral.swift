@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum Numeral : Int, CaseIterable {
+public enum NumeralType : Int, CaseIterable {
     case None = -1, FormatUS = 0, Latin, Roman
     case Indian, Abjad, Egyptian, Phonician, Greek, Hebraian
     case Babylon, Chinese, ChineseFinancial, Maya, Scientific, Duodezimal, Rod, Kyrillic, Glagolitic, Khmer,Sanskrit, Klingon,Kharoshthi
@@ -40,16 +40,16 @@ public enum Numeral : Int, CaseIterable {
         "https://en.wikipedia.org/wiki/Klingon_language",
         "https://en.wikipedia.org/wiki/Kharosthi#Numerals"]
     
-    func asString() -> String {
+    public func asString() -> String {
         if self.rawValue >= 0 {
-            return Numeral.str[self.rawValue]
+            return NumeralType.str[self.rawValue]
         }
         return ""
     }
     
-    func asWiki() -> String {
+    public func asWiki() -> String {
         if self.rawValue >= 0 {
-            return Numeral.wikis[self.rawValue]
+            return NumeralType.wikis[self.rawValue]
         }
         return "https://en.wikipedia.org/wiki/Numeral_system"
     }
