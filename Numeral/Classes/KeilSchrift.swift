@@ -838,7 +838,7 @@ public extension BigUInt {
 			}
 		}
 		if self < 100 {
-			var ans = (self%10).Kharoshthi()
+            let ans = (self%10).Kharoshthi()
 			let prefix = Int(self/10)
 			let prefixstr : String =  {
 				switch prefix {
