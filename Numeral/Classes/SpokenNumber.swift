@@ -626,6 +626,7 @@ public class SpokenNumberLatin {
 }
 
 public class SpokenNumberDanish {
+    // Videso see: https://www.youtube.com/watch?v=l4bmZ1gRqCc
 	public static let shared = SpokenNumberDanish()
 	private init() { }
 	
@@ -844,6 +845,11 @@ public class SpokenNumberKlingon {
     
     public func spoken(n: BigUInt) -> String {
     
+        let uy2 = BigUInt(1000000)*BigUInt(1000000)
+        if n >= uy2 {
+            return "wejpuH"
+        }
+        
         if n < 10 {
             return small[Int(n)]
         }
@@ -864,6 +870,88 @@ public class SpokenNumberKlingon {
         return "law'"
     }
 
+}
+
+//http://www.dothraki.com/2011/10/numbers-numbers-everywhere/
+public class SpokenNumberDothraki {
+        public static let shared = SpokenNumberDothraki()
+        private init() { }
+    
+
+
+    let small = ["som","at", "akat", "sen", "tor", "mek", "zhinda", "fekh", "ori", "qazat"]
+    let small2 = ["thi","atthi","akatthi","senthi","torthi","mekthi","zhindatthi","fekhthi","oritthi","qazatthi"]
+    let tens = ["","thi","chakat","chisen","chitor","chimek","chizhinda","chifekh","chori","chiqazat"]
+    let hundred = "ken"
+    let thousand = "dalen"
+    let million = "yor"
+    let verybig = "yorosor"
+    let soft = "\u{00AD}"
+    
+    public func spoken(n: BigUInt) -> String {
+    
+        let uy2 = BigUInt(1000000)*BigUInt(1000000)
+        if n >= uy2 {
+            return verybig
+        }
+        
+        if n < 10 {
+            return small[Int(n)]
+        }
+        if n < 20 {
+            return small2[Int(n)-10]
+        }
+        
+        if n<100 {
+            let nten = Int(n / 10)
+            let none = Int(n % 10)
+            if none > 0 {
+                return tens[nten] + " " + small[none]
+            }
+            return tens[nten]
+        }
+        
+        if n<1000 {
+            var ans = hundred
+            let nh = Int(n/100)
+            if nh > 1 {
+                ans = small[nh] + hundred
+            }
+            let nmod = n % 100
+            if nmod > 0 {
+                ans = ans + " " + spoken(n: nmod)
+            }
+            return ans
+        }
+        
+        if n < 1000000 {
+            var ans = thousand
+            let nt = n/1000
+            if nt > 1 {
+                ans = spoken(n: nt) + soft + thousand
+            }
+            let nmod = n % 1000
+            if nmod > 0 {
+                ans = ans + " " + spoken(n: nmod)
+            }
+            return ans
+        }
+        
+        if n < BigUInt(1000000)*BigUInt(1000000) {
+            var ans = million
+            let nt = n/1000000
+            if nt > 1 {
+                ans = spoken(n: nt) + soft + million
+            }
+            let nmod = n % 1000000
+            if nmod > 0 {
+                ans = ans + " " + spoken(n: nmod)
+            }
+            return ans
+        }
+        
+        return verybig
+    }
 }
 
 

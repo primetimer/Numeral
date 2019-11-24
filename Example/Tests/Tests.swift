@@ -160,10 +160,34 @@ class Tests: XCTestCase {
         XCTAssert(true, "Pass")
     }
     
+    func test58() {
+        let danish = SpokenNumberDanish.shared
+        let text = danish.spoken(n: 58)
+        print(text)
+        let explain = danish.Explain(n: 58)
+        print(explain)
+    }
     func testKlingon() {
         
         let speak = SpokenNumberKlingon.shared
         for n in 0...12*12*13 {
+            let text = speak.spoken(n: BigUInt(n))
+            print(n,":",text)
+        }
+        
+        for power in 0...12 {
+            let n = BigUInt(10).power(power)
+            let text = speak.spoken(n: n)
+            print("10^",power,":",text)
+        }
+        // This is an example of a functional test case.
+        XCTAssert(true, "Pass")
+    }
+    
+    func testDothraki() {
+        
+        let speak = SpokenNumberDothraki.shared
+        for n in 0...2*12*12*13 {
             let text = speak.spoken(n: BigUInt(n))
             print(n,":",text)
         }
