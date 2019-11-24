@@ -115,6 +115,34 @@ public enum NumeralType : Int, CaseIterable {
 }
 
 public extension NumeralType {
+    func FontName() -> String {
+        switch self {
+        case .Maya:
+            return "Mayan"
+        case .Rod,.Klingon:
+            return "symbola"
+        case .Kyrillic:
+            return "Symbola"
+        default:
+            return ""
+        }
+    }
+}
+
+public extension NumeralType {
+    func SuopprtWatchOS() -> Bool {
+        switch self {
+        case .None,.FormatUS,.Roman,.Indian,.Abjad,.Chinese,.ChineseFinancial,.Duodezimal,.Kyrillic,.Greek,.Hebraian,.Scientific,.Khmer,.Sanskrit:
+            return true
+            
+        case .Klingon,.Glagolitic,.Rod,.Maya,.Babylon,.Phonician,.Egyptian,.Kharoshthi:
+            return false
+                   
+        }
+    }
+}
+
+public extension NumeralType {
     public func WikiLink() -> String {
         
         switch self {

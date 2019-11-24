@@ -44,14 +44,16 @@ public extension BigUInt {
 			ans = Digit12(digit: digit) + ans
 			stellen = stellen / 12
 		}
-//        if ans.count > 1 {
-//            ans = ans + "ᵈᶻ" //"\u{01F3}"  // "₁₂"
-//        }
+        #if !os(watchOS)
+        if ans.count > 1 {
+            ans = ans + "ᵈᶻ" //"\u{01F3}"  // "₁₂"
+        }
+        #endif
 		return ans
 	}
 	
 	private func Digit12(digit: Int) -> String {
-        #if os(watchos)
+        #if os(watchOS)
 		let mathdigits = [ "\u{1D7E2}","\u{1D7E3}","\u{1D7E4}","\u{1D7E5}","\u{1D7E6}","\u{1D7E7}","\u{1D7E8}","\u{1D7E9}","\u{1D7EA}","\u{1D7EB}","ᘔ", "Ɛ"]
         #else
         let mathdigits = ["0","1","2","3","4","5","6","7","8","9","ᘔ", "Ɛ"]
@@ -549,7 +551,7 @@ public extension BigUInt {
 			return ans
 		}
 		
-		return "ↈ"
+		//return "ↈ"
 	}
 }
 

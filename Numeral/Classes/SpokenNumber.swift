@@ -97,7 +97,15 @@ public class SpokenNumber {
 			pot += 3
 		}
 		let nn = n / divisor
-		var ans = spoken(n: nn) + " " + bigger[pot/3]
+        var ans = spoken(n: nn)
+        
+        if pot / 3 >= bigger.count {
+            let append = SpokenNumberLargePrefixer.shared.prefix(illion: pot/3 - 1)
+            ans = ans + " " + append
+        } else {
+            ans = ans + " " + bigger[pot/3]
+        }
+        
 		if n % divisor > 0 {
 			ans = ans + ", " + spoken(n: n % divisor)
 		}
@@ -152,7 +160,7 @@ public class SpokenNumberFrench {
 			return hundred
 		}
 		if n < 200 {
-			var ans = hundred + "-" + spoken(n: n % 100)
+            let ans = hundred + "-" + spoken(n: n % 100)
 			return ans
 		}
 		if n < 1000 {
@@ -171,7 +179,7 @@ public class SpokenNumberFrench {
 			return ans
 		}
 		
-		var (test,index,ans,rest) = (BigUInt(1000000),0,"",BigUInt(0))
+        var (test,index,ans,_) = (BigUInt(1000000),0,"",BigUInt(0))
 		repeat {
 			if n>=test {
 				let prefix = n / test
@@ -202,13 +210,20 @@ public class SpokenNumberFrench {
 }
 
 public class SpokenNumberLargePrefixer {
+    
+    public static let shared = SpokenNumberLargePrefixer()
+    private init() {
+        
+    }
+
 	let bstr = ["","mi","bi","tri","quadri","quinti","sexti","septi","octi","noni","deci","undeci","Duodeci","Tredeci","Quattuordeci","Quinquadeci","Sedecillion","Septendeci","Octodeci","Novendeci","Viginti"]
 	let estr = ["","un","duo","tre","quattor","quin","se","septe","octo","nove"]
 	let dstr = ["","deci","viginti","triginta","quadriginta","quinquaginta","sexaginta","septuaginta","octoginta","nonaginta"]
 	let hstr = ["","centi","ducenti","trecenti","quadringenti","quingenti","sescenti","septingenti","octingenti","nongenti"]
-	let illionstr = "llion"
+	let illionstr = "illion"
 	
-	func illionAppender(_ str : String) -> String {
+	public func illionAppender(_ str : String) -> String {
+//        return str + illionstr
 		guard let last = str.last else { return str + illionstr }
 		switch last {
 		case "a","e","i","o","u","A","E","I","O","U":
@@ -218,7 +233,7 @@ public class SpokenNumberLargePrefixer {
 		}
 	}
 	
-	func prefixer(n: BigUInt) -> String {
+	public func prefixer(n: BigUInt) -> String {
 		let pot = BigUInt(1000)
 		var (test,yllion) = (BigUInt(1000000),0)
 		if n < test { return "" }
@@ -231,14 +246,48 @@ public class SpokenNumberLargePrefixer {
 		} while yllion <= 999
 		return "zillion"
 	}
+    
+    public func powerstr(nth: Int) -> String {
+        switch nth {
+        case 0:
+            return "one"
+        case 1:
+            return "ten"
+        case 2:
+            return "hun\u{00AD}dred"
+        case 3:
+           return "thou\u{00AD}sand"
+        case 4:
+           return "ten\u{00AD}thou\u{00AD}sand"
+        case 5:
+           return "hun\u{00AD}dred\u{00AD}thou\u{00AD}sand"
+        default:
+            break
+        }
+        
+        let illion = prefix(illion: nth/3)
+        switch nth % 3 {
+        case 0:
+            return illion
+        case 1:
+            return "ten" + " " + illion
+        case 2:
+            return "hun\u{00AD}dred" + " " + illion
+        default:
+            return ""
+        }
+    }
 	
-	func prefix(illion: Int) -> String {
+	public func prefix(illion: Int) -> String {
 		
+        if illion == 0 { return "" }
 		if illion >= 1000 {
 			return "zillion"
 		}
 		if illion < bstr.count {
-			return bstr[illion] + illionstr
+            let ans = illionAppender(bstr[illion])
+            return ans
+//			return bstr[illion] + illionstr
 		}
 		
 		let h = illion / 100
@@ -358,7 +407,7 @@ public class SpokenNumberGerman {
 			return ans
 		}
 		
-		var (test,index,ans,rest) = (BigUInt(1000000),0,"",BigUInt(0))
+        var (test,index,ans,_) = (BigUInt(1000000),0,"",BigUInt(0))
 		repeat {
 			if n>=test {
 				let prefix = n / test
@@ -419,7 +468,7 @@ public class SpokenNumberLatin {
     let soft = "\u{00AD}"
     
     public func spoken(n: BigUInt) -> String {
-        var (stellen,digit,ans) = (self,Int(n % 10),"")
+        var (_,_,ans) = (self,Int(n % 10),"")
         if n < 20 { return small[Int(n)] }
         if n < 100 {
             let r10 = Int(n % 10)
@@ -467,7 +516,7 @@ public class SpokenNumberLatin {
         }
         
         
-        var (test,index,rest) = (BigUInt(1000000),0,BigUInt(0))
+        var (test,index,_) = (BigUInt(1000000),0,BigUInt(0))
         
         repeat {
             if n>=test {
@@ -529,7 +578,7 @@ public class SpokenNumberLatin {
         }
         
         
-        var (test,index,rest) = (BigUInt(1000000),0,BigUInt(0))
+        var (test,index,_) = (BigUInt(1000000),0,BigUInt(0))
         
         repeat {
             if n>=test {
@@ -594,7 +643,7 @@ public class SpokenNumberDanish {
 	
 	
 	public func spoken(n: BigUInt) -> String {
-		var (stellen,digit,ans) = (self,Int(n % 10),"")
+        var (_,digit,ans) = (self,Int(n % 10),"")
 		if n < 20 { return small[Int(n)] }
 		if n < 100 {
 			if n % 10 > 0 { ans = small[digit] + soft + "og" + soft }
@@ -615,7 +664,7 @@ public class SpokenNumberDanish {
 		}
 	
 	
-		var (test,index,rest) = (BigUInt(1000000),0,BigUInt(0))
+        var (test,index,_) = (BigUInt(1000000),0,BigUInt(0))
 		
 		repeat {
 			if n>=test {
@@ -677,7 +726,7 @@ public class SpokenNumberDanish {
 		}
 		
 		
-		var (test,index,rest) = (BigUInt(1000000),0,BigUInt(0))
+        var (test,index,_) = (BigUInt(1000000),0,BigUInt(0))
 		
 		repeat {
 			if n>=test {
@@ -718,6 +767,106 @@ public class SpokenNumberDanish {
 		} while index < min(bigger.count,bigger3.count)
 		return "\u{221}"
 	}
+    
+    
 }
+
+public class SpokenNumberDozenal {
+        public static let shared = SpokenNumberDozenal()
+        private init() { }
+    
+    
+    let small = ["ze\u{200B}ro", "one", "two", "three", "four", "five", "six", "se\u{200B}ven", "eight", "nine", "dek", "el"]
+    
+    let bigger = ["", "do", "gro", "mo","tri-mo","quadri-mo","quinti-mo","sexti-mo","septi-mo","octi-mo","noni-mo","deki-mo"]
+    let soft = "\u{00AD}"
+
+    
+    public func spoken(n: BigUInt) -> String {
+        if n < 12 { return small[Int(n)] }
+        
+        var ans = ""
+        var rest = n
+        for power in 0..<bigger.count {
+            let digit = Int(rest % 12)
+            if digit > 0 {
+                var next = small[digit]
+                if power > 0 {
+                    next = next + " " + bigger[power] + " "
+                }
+                ans = next + ans
+            }
+            rest = rest / 12
+            if rest == 0 {
+                return ans
+            }
+        }
+        return "\u{221}"
+        
+    }
+
+}
+
+public class SpokenNumberTonga {
+        public static let shared = SpokenNumberTonga()
+        private init() { }
+    
+    
+    let small = ["noa", "taha", "ua", "tolu", "fa", "nima", "ono", "fitu", "valu", "hiva"]
+
+    public func spoken(n: BigUInt) -> String {
+        
+        var ans = ""
+        var rest = n
+        if rest == 0 { return "noa" }
+        
+        for _ in 0...10 {
+            let digit = Int(rest % 10)
+            ans = small[digit] + " " + ans
+            rest = rest / 10
+            if rest == 0 {
+                return ans
+            }
+        }
+        return "uô"
+    }
+
+}
+
+public class SpokenNumberKlingon {
+        public static let shared = SpokenNumberKlingon()
+        private init() { }
+    
+    
+    let small = ["pagh","wa’", "cha’", "wej", "loS", "vagh", "jav", "Soch", "chorgh", "Hut"]
+    let powers = ["","maH","vatlh","SaD","netlh","bIp","’uy’"]
+    
+    
+    public func spoken(n: BigUInt) -> String {
+    
+        if n < 10 {
+            return small[Int(n)]
+        }
+        
+        var ans = ""
+        
+        var rest = n
+        for power in 0..<powers.count {
+            let digit = Int(rest % 10)
+            if digit > 0 {
+                ans = small[digit] + powers[power] + " " + ans
+            }
+            rest = rest / 10
+            if rest == 0 {
+                return ans
+            }
+        }
+        return "law'"
+    }
+
+}
+
+
+
 
 
